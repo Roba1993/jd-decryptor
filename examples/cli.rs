@@ -1,16 +1,3 @@
-# jd-decrypter
-
-A simple library to decode JDownloader .ejs files.
-
-## Usage
-Add `jd-decrypter` as a dependency in `Cargo.toml`:
-```toml
-[dependencies]
-jd-decrypter = "0.1.1"
-```
-
-Use the `jd_decrypter::JdAccountList' to decrypt a .ejs file:
-```rust
 extern crate jd_decrypter;
 
 use std::env;
@@ -28,7 +15,3 @@ fn main() {
         println!("Accounts: {:?}", dlc);
     }
 }
-```
-
-## License
-Distributed under the [MIT License](LICENSE).
